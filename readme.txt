@@ -1,5 +1,1 @@
-Git is a version control system.
-Git is free software.
-Testing
-testing2
-hehe.
+2018.9.3 学习了《鸟哥私房菜基础篇》的第七章、《c++ primer》第二章全部
