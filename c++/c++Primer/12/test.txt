@@ -1,0 +1,6 @@
+element occurs 122 times
+a set element contains only a key
+operator create a new element 
+regardless of whether the element 
+when we fetch an element from a map we 
+if the element is not found find returns

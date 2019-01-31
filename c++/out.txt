@@ -1,0 +1,254 @@
+
+**************************文件目录**********************************：
+序号      文章名
+0         test1.txt
+1         test2.txt
+2         test3.txt
+
+**************************倒排索引**********************************：
+关键字           文章号      频数       位置              
+Acquired            2         1          62
+And                 1         3          19, 40, 82
+Antonio             0         1          221
+Artificial          0         1          190
+Be                  1         2          6, 13
+Do                  1         1          99
+                    2         1          82
+For                 2         1          37
+From                0         1          118
+Go                  1         1          44
+Heart               0         1          222
+Here                0         1          111
+If                  1         3          36, 38, 90
+In                  2         2          23, 44
+Isolation           1         1          69
+It                  1         4          48, 55, 61, 65
+Know                1         1          17
+My                  0         1          1
+Of                  1         1          73
+Once                0         1          276
+One                 0         1          157
+San                 0         1          220
+Since               0         1          206
+Study               0         1          223
+Sweeteners          0         2          58, 108
+Than                1         1          84
+That                0         1          43
+The                 0         1          86
+                    2         1          26
+There               1         1          10
+This                0         1          132
+Try                 0         1          240
+Weight              0         1          180
+When                0         1          298
+You                 0         1          145
+                    1         3          33, 92, 101
+Your                1         2          1, 28
+actually            0         1          303
+added               0         1          77
+adding              0         1          163
+all                 1         1          45
+alone               1         1          95
+amount              0         1          243
+amounts             0         1          69
+and                 0         7          20, 33, 49, 177, 266, 307, 317
+                    2         1          6
+anything            1         1          85
+are                 0         4          59, 112, 209, 273
+                    1         1          34
+                    2         1          88
+artificial          0         2          123, 207
+ary                 2         1          69
+as                  0         4          178, 188, 229, 236
+associating         0         1          213
+ball                2         1          55
+be                  1         1          94
+because             0         2          101, 202
+become              0         1          232
+being               2         1          18
+biggest             0         2          87, 160
+body                0         2          19, 138
+both                2         1          4
+calories            0         3          82, 94, 105
+can                 0         1          262
+                    1         1          88
+coffee              0         1          5
+could               1         4          49, 56, 62, 66
+craving             0         1          129
+cup                 0         1          2
+cutting             0         1          241
+damn                0         1          309
+diet                0         1          258
+difficult           0         1          195
+distress            2         1          16
+do                  1         2          26, 80
+does                0         1          139
+drank               0         1          225
+during              2         1          57
+early               0         1          39
+eat                 0         1          199
+eating              1         1          52
+effects             0         1          161
+else                1         1          86
+emotional           2         1          5
+enhance             2         1          72
+ers                 2         1          50
+even                0         1          135
+excluded            2         2          19, 52
+fade                0         1          290
+faster              0         1          265
+feeling             0         2          16, 319
+findings            2         1          87
+food                0         2          143, 306
+foods               0         1          201
+for                 0         1          196
+                    1         1          53
+                    2         1          28
+forward             0         1          13
+freezing            1         1          58
+from                2         1          53
+game                2         1          47
+gives               0         1          321
+half                0         1          249
+handing             2         1          10
+has                 0         1          103
+have                0         1          92
+having              0         1          34
+hazardous           0         1          62
+health              0         1          65
+help                0         1          74
+helped              0         1          44
+highlight           0         1          8
+how                 1         1          74
+if                  0         2          136, 291
+in                  0         6          17, 40, 66, 79, 211, 218
+                    2         1          20
+inherent            0         1          128
+intensely           0         1          184
+involving           2         1          48
+is                  0         2          6, 165
+                    1         4          3, 11, 30, 70
+it                  0         3          102, 193, 320
+itself              0         1          316
+knowing             0         1          23
+learn               1         1          24
+less                0         3          93, 104, 183
+life                1         3          2, 29, 104
+like                0         1          52
+likely              0         1          230
+looking             0         1          12
+lose                0         2          99, 263
+loss                2         1          70
+low                 0         1          210
+lower               0         1          170
+make                0         1          192
+makes               2         1          13
+may                 0         1          146
+                    2         1          71
+maybe               1         1          41
+mean                1         4          50, 57, 63, 67
+means               0         1          133
+methodologies       2         1          27
+mind                0         1          26
+money               2         2          12, 78
+more                0         2          226, 313
+                    1         1          21
+most                0         1          269
+much                0         2          36, 312
+                    1         1          75
+my                  0         4          10, 18, 25, 46
+need                0         1          141
+nor                 0         1          61
+not                 0         1          140
+                    1         1          51
+obese               0         1          235
+odd                 2         1          32
+of                  0         9          3, 9, 158, 162, 175, 244, 256, 281, 285
+                    2         3          17, 39, 65
+often               1         1          22
+on                  0         1          150
+                    1         3          7, 14, 59
+one                 2         1          38
+or                  0         2          122, 234
+                    2         1          74
+other               2         1          24
+our                 0         2          64, 90
+out                 0         2          255, 284
+overweight          0         1          233
+own                 0         1          324
+people              0         1          237
+perfect             1         1          107
+physical            2         3          7, 11, 73
+popular             0         1          270
+prevent             0         1          109
+preventing          0         1          114
+prevention          0         1          88
+process             0         1          280
+psychological       2         1          75
+puter               2         1          46
+quantity            0         1          171
+real                0         1          305
+really              1         1          77
+reduce              0         1          76
+responses           2         1          2
+ride                1         1          103
+satiate             0         1          45
+satisfaction        0         1          22
+satisfy             0         1          126
+say                 2         1          34
+slowly              0         1          28
+so                  0         4          35, 152, 259, 311
+social              2         1          21
+staring             0         1          250
+start               0         2          29, 278
+stick               0         1          293
+straight            1         1          105
+studies             2         1          86
+study               2         1          30
+substitutes         0         1          272
+such                0         1          187
+sugar               0         3          121, 271, 283
+sugars              0         1          78
+sweet               0         2          47, 185
+sweetener           0         1          245
+sweeteners          0         3          164, 191, 208
+sweetness           0         2          151, 214
+symbolic            2         1          63
+take                0         2          253, 300
+taking              0         1          282
+taste               0         2          168, 304
+than                0         4          95, 106, 172, 227
+that                0         4          24, 134, 166, 260
+                    2         1          9
+the                 0         12         7, 21, 41, 67, 127, 159, 219, 242, 268, 279, 295, 318
+                    1         6          8, 15, 20, 46, 71, 97
+                    2         6          15, 35, 40, 54, 58, 85
+them                0         1          254
+think               2         1          84
+this                2         1          29
+time                0         1          301
+to                  0         9          14, 30, 63, 89, 125, 198, 231, 252, 302
+                    1         3          25, 79, 106
+                    2         2          3, 33
+toss                2         1          56
+typical             0         1          68
+un                  0         1          248
+under               0         1          37
+use                 0         1          247
+value               2         1          64
+very                0         1          194
+want                1         1          78
+warm                0         1          4
+weight              0         2          100, 264
+were                2         2          31, 51
+who                 0         2          224, 238
+will                0         2          27, 289
+                    1         2          93, 102
+with                0         2          215, 294
+                    1         1          96
+would               0         2          71, 174
+you                 0         14         70, 75, 83, 98, 153, 173, 197, 203, 246, 257, 261, 277, 292, 299
+                    1         3          23, 76, 87
+                    2         1          83
+your                0         4          80, 115, 137, 286
+                    1         3          4, 31, 42
