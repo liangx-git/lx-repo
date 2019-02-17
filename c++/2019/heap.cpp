@@ -39,6 +39,7 @@ public:
 
 private:
 	void upAdjust(int index);
+
 	void downAdjust(int index);
 
 private:
@@ -162,7 +163,7 @@ void start(Heap &heap)
 				heap.print();
 				break;
 			case 2:
-				std::cout << "请输入代插入元素:";
+				std::cout << "请输入待插入元素:";
 				int new_value;
 				std::cin >> new_value;
 				heap.push(new_value);
