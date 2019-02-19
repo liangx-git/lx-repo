@@ -182,6 +182,45 @@ vector<int> quickSort(vector<int> nums)
 }
 
 
+void downAdjust(vector<int> &nums, int len, int index)
+{
+	int temp_value = nums[index];
+	int parent_index = index;
+	int child_index = index * 2 + 1;
+	while (child_index < len) 
+	{
+		//右节点大于左节点
+		if (child_index + 1 < len && nums[child_index + 1] > nums[child_index])
+			++child_index;
+
+		if (nums[child_index] > temp_value)
+			nums[parent_index] = nums[child_index];	
+		else
+			break;
+
+		parent_index = child_index;
+		child_index = child_index * 2 + 1;
+	}
+	nums[parent_index] = temp_value;
+}
+
+vector<int> heapSort(vector<int> nums)
+{
+	int len = nums.size();
+	//创建大根堆
+	for (int i = (len - 1) / 2; i >= 0; --i)
+	{
+		downAdjust(nums, len, i);	
+	}
+	
+	using std::swap;
+	for (int i = 0; i < len; ++i)
+	{
+		swap(nums[0], nums[len - i - 1]);
+		downAdjust(nums, len - i - 1, 0);
+	}
+	return nums;
+}
 
 
 int main()
@@ -208,6 +247,9 @@ int main()
 
 	cout << "快速排序：";
 	printNums(quickSort(nums));
+
+	cout << "堆序排序：";
+	printNums(heapSort(nums));
 
 	return 0;
 }
