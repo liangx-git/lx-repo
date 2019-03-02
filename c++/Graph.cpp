@@ -246,11 +246,11 @@ int main()
 	cout << "邻接矩阵：" << endl;
 	g.PrintArcs();
 
-	//cout << "从根结点0开始深度优先遍历图并输出" << endl;
-	//g.DefOrdPrintRecursive(0);
+	cout << "从根结点0开始深度优先遍历图并输出" << endl;
+	g.DefOrdPrintRecursive(0);
 
-	cout << "宽度优先遍历输出：" << endl;
-	g.BorOrdPrint(0);
+	//cout << "宽度优先遍历输出：" << endl;
+	//g.BorOrdPrint(0);
 
 	return 0;
 }
