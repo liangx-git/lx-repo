@@ -108,5 +108,40 @@ let g:airline_powerline_fonts = 1
 
 
 """""""""""""""""""YCM"""""""""""""""""""
-let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+
+" 关闭加载ycm_extra_conf文件提示
+let g:ycm_confirm_extra_conf = 0
+
+let g:ycm_error_symbol = 'x'
+
+let g:ycm_warning_symbol ='!'
+
+" 补全候选项数
+let g:ycm_max_num_candidates = 10
+
+" 关闭预览窗口
+let g:ycm_add_preview_to_completeopt = 0
+
+" 自动关闭预览窗口 
+let g:ycm_autoclose_preview_window_after_completion = 1
+
+" 设置ycm启动白名单
+let g:ycm_filetype_whitelist = {
+	\'c':1,
+	\'cpp':1,
+	\'h':1,
+	\'sh':1,
+	\'zsh':1,
+	\'vim':1,
+	\'java':1
+	\}
+" avoid conflict with other diagnostics plugins
+let g:syntastic_java_checkers = []
+
+" 跳转到定义处或者声明'
+nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR> 
+
+
+inoremap jj <Esc>
 
